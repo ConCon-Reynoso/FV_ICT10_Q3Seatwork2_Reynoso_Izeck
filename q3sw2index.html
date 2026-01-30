@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <script defer src="https://pyscript.net/releases/2024.2.1/pyscript.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>lists</title>    
+</head>
+<body>
+    <form action="/submit" method="post">
+        <p>Are you done with the online registration?</p>
+        <input type="radio" id="yes1">
+        <label for="yes1">Yes</label><br>
+        <input type="radio" id="no1">
+        <label for="no1">No</label><br>
+
+        <p>Do you have the medical clearance from the clinic?</p>
+        <input type="radio" id="yes2">
+        <label for="yes2">Yes</label><br>
+        <input type="radio" id="no2">
+        <label for="no2">No</label><br><br>
+
+        <label for="gas">What's your Grade & Section?</label>
+
+        <select name="grade" id="grade">
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        </select>
+
+        <select name="section" id="section">
+        <option value="Emerald">Emerald</option>
+        <option value="Ruby">Ruby</option>
+        <option value="Sapphire">Sapphire</option>
+        <option value="Topaz">Topaz</option>
+        </select>
+        <br><br>
+
+        <button type="button" id="intramurals_eligibility_&_team">Sign up</button>
+        
+    </form>
+    <script type="py" src="q3sw2main.py"></script>
+</body>
+</html>
